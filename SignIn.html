@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In page</title>
+
+    <style>
+
+        #main {
+            height: 53vh;
+            width: 100vh;
+            border: solid;
+            border-width: .5vh;
+            margin-top: 10%;
+            margin-left: 25%;
+
+        }
+
+        #header {
+            padding-left: 8vh;
+            background-color: rgb(193, 221, 193);
+            margin-top: 0%;
+            height: 5vh;
+            text-align: center;
+            padding: 0.5vh;
+            color: green;
+            font-weight: bolder ;
+        }
+
+        #bodyy {
+            display: flex;
+        }
+        
+        #container {
+            padding-left: 6vh;
+           
+        }
+
+        .signIn {
+            font-size: larger;
+            font-weight: bolder;   
+        }
+
+        .email {
+            height: 4vh;
+            width: 35vh;
+            margin-top: 1vh;
+            background-color: rgb(225, 225, 225);
+            color: gray;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .password {
+            height: 4vh;
+            width: 35vh;
+            margin-top: 1vh;
+            background-color: rgb(225, 225, 225);
+            color: gray;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        
+        .SignInBTN {
+            height: 4.5vh;
+            width: 35.5vh;
+            margin-top: 2vh;
+            border-radius: 3vh;
+            background-color: rgb(57, 57, 196);
+            color: white;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .FBLogo {
+            height: 4vh;
+            width: 35vh;
+            margin-top: 2vh;
+            color: gray;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .GLogo {
+            height: 4vh;
+            width: 35vh;
+            margin-top: 1vh;
+           
+            color: gray;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        .forgetPswd {
+            font-size: larger;
+            padding-left: 9vh;
+            cursor: pointer;
+        }
+
+        #part2 {
+        /*  border: solid;
+            border-width: 2px;
+        */  width: 40vh;
+            margin-left: 5vh;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <div id="header">
+            <p>Let's learn, shair & inspire each other with our passion for computer engineering. Sign Up now 🤘</p>
+        </div>
+        
+        <div id="bodyy">
+            <div id="container">
+                <p class="signIn">Sign In</p>
+                <input type="email" placeholder="Email" class="email">
+                <br>
+                <input type="password" placeholder="Password" class="password">
+                <br>
+                <button class="SignInBTN">Sign in</button>
+                <br>
+                <button class="FBLogo"><img src="images/fb_logo.png" alt=""></button>
+                <br>
+                <button class="GLogo"><img src="images/g_logo.png" alt=""></button>
+                <br>
+                <p class="forgetPswd">Forget Password?</p> 
+            </div> 
+
+            <div id="part2">
+                <p style="display: inline-block;">Don't have account yet? </p><p style="display: inline-block; font-weight: bolder; color: blue;">&#160 Create for Free! </p>
+
+                <img src="images/abstract.png" alt="">
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+</html>
